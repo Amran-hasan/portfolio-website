@@ -1,7 +1,9 @@
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 230px;
   
 }
 
@@ -57,14 +59,35 @@ ul{
 
 }
 
-.img-greetings{
+.header{
 
-    font-size: 45px;
-    font-weight: 600;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
-.banner-title{
-    font-weight: bold;
-    font-size: 45px;
-}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
 
+    }
+.banner-content{
+    max-width: 580px;
+}
+    
+    .img-greetings{
+    
+        font-size: 45px;
+        font-weight: 600;
+    }
+    
+    .banner-title{
+        font-weight: bold;
+        font-size: 45px;
+    }
+    
+    .banner-profile-pic{
+
+        width: 580px;
+    }
