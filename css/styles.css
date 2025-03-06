@@ -47,7 +47,6 @@ ul{
     display: flex;
     text-align: center;
 }
-
 .btn-primary{
     background-color: rgba(253, 110, 10, 1);
     font-weight: bold;
@@ -58,6 +57,7 @@ ul{
     border: none;
 
 }
+
 
 .header{
 
@@ -91,3 +91,71 @@ ul{
 
         width: 580px;
     }
+
+
+.section-title{
+    font-size: 45px;
+    font-weight: bold;
+    }
+    .section-description{
+        font-size: 18px;
+
+    }
+.secondary-bg{
+
+background-color:  rgba(255, 248, 243, 1);
+}
+
+.about{
+
+border-radius: 10px;
+padding: 130px 150px;
+ text-align: center;
+}
+main{
+max-width: 1140px;
+margin: 0 auto;
+
+}
+.item-decription{
+font-weight: Bold;
+}
+
+.about-items{
+    display: flex;
+     justify-content: space-around;
+
+}
+.text-center{
+
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input [ type="text"] footer input[type="email"] footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100;
+    padding: 10px 20px ;
+    margin-bottom: 24px;
+    border: none;
+
+}
