@@ -96,6 +96,7 @@ ul{
 .section-title{
     font-size: 45px;
     font-weight: bold;
+    
     }
     .section-description{
         font-size: 18px;
@@ -159,3 +160,9 @@ footer input [ type="text"] footer input[type="email"] footer textarea{
     border: none;
 
 }
+
+.section-title{
+
+    text-align: center;
+}
+
