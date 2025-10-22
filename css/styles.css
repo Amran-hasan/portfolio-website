@@ -64,6 +64,7 @@ ul{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-size: auto,600px 400px;
 }
 
 .banner{
@@ -125,6 +126,9 @@ font-weight: Bold;
 .about-items{
     display: flex;
      justify-content: space-around;
+     margin-top: 20px;
+     padding: 20px;
+     background-color: rgb(230, 195, 129);
 
 }
 .text-center{
